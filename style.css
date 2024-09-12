@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+/* --------------------------------------------------------Navigation Section---------------------------------------------------------------------------------- */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #737373;
+}
+
+
+.logo-img{
+    height: 50px;
+
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.nav-bar ul a{
+    text-decoration: none;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.nav-bar ul a li{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar ul a li:hover{
+    text-decoration: underline yellowgreen;
+}
+
+
+/*  */
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-name{
+    padding-top: 200px;
+    font-size: x-large;
+}
+
+.intro{
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name{
+    color: black;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+
+.name:hover{
+    color: white;
+    background-color: #737373;
+    /* text-decoration: underline greenyellow; */
+    /* border: 1px solid white; */
+    border-radius: 30px;
+}
+
+.intro-para{
+    color: #737373;
+    padding: 10px;
+}
+
+.profile{
+    padding-top: 100px;
+}
+
+.soical-media{
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.social{
+   font-size: 50px;
+   padding: 30px;
+}
+
+
+.github{
+    color: black;
+}
+.google{
+    color: red;
+}
+
+.linkedin{
+    color: blue;
+}
+
+.facebook{
+    color: rgb(75, 122, 243);
+}
+
+.instagram{
+    color: rgb(240, 106, 146);
+
+}
+
+.btn{
+    display: flex;
+    margin: 40px;
+    justify-content: space-around;
+}
+
+.btn button{
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    border: none;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: rgb(31, 135, 183);
+}
+
+/* ------------------------------------------------------------------"What i do" section------------------------------------------------------------------------- */
+
+.what{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.what-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.what-text p{
+    color: #737373;
+    padding: 10px;
+}
+
+.what-icon{
+    margin-top: 50px;
+    color: grey;
+    font-size: 80px;
+}
+
+.what-lines{
+    color: rgb(152, 151, 151);
+    width: 500px;
+}
+
+.what-lines h5{
+    padding: 15px;
+    font-size: larger;
+}
+/* ----------------------------------------------------------------Proficiency----------------------------------------------------------------------- */
+.proficiency{
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(186, 185, 185);
+}
+
+.proficiency-img{
+    height: 500px;
+}
+
+.proficiency-text{
+    color: white;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.proficiency h1{
+    font-size: 60px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
+
+.proficiency h4{
+    font-size: 30px;
+    padding: 30px;
+    color: #353b48;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 0px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: #fff;
+}
+
+.fend{
+    width: 90%;
+}
+
+.bend{
+    width: 75%;
+}
+
+.pro{
+    width: 60%;
+}
+/* ---------------------------------------------------------Open source projects----------------------------------------------------------------------------- */
+.open-source-project h1{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.open-source-project a{
+    text-decoration: none;
+    color: black;
+}
+
+.open-source{
+    justify-content: space-around;
+    display: flex;
+}
+
+.project{
+    margin: 30px;
+}
+
+.first{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 50px 150px;
+    box-shadow: 10px 5px 5px rgb(232, 230, 230);
+}
+
+.first p{
+    color: #737373;
+}
+
+.first-name{
+    display: flex;
+}
+
+.first-name h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.first-icon{
+    margin-top: 10px;
+    padding-right: 10px;
+}
+/* ------------------------------------------------------------Achivements-------------------------------------------------------------------------- */
+.certificates{
+    /* margin-left: 60px; */
+}
+
+.heading h1{
+    font-size: 50px;
+    margin-left: 60px;
+    /* text-align: center; */
+  
+}
+
+.heading{
+    display: flex;
+
+}
+
+.heading span{
+    font-size: 40px;
+}
+
+.Certificates-para{
+    margin-left: 60px;
+    color: gray;
+}
+
+.elements-main{
+    display: flex;
+
+}
+
+.elements{
+    margin: 50px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgb(232, 230, 230);
+    width: 460px;
+
+}
+
+.elements h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
